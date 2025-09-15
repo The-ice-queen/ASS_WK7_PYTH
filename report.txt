@@ -1,0 +1,67 @@
+
+================ TASK 1: Load and Explore Dataset ================
+
+First 5 rows of dataset:
+   sepal length (cm)  sepal width (cm)  ...  petal width (cm)  species
+0                5.1               3.5  ...               0.2   setosa
+1                4.9               3.0  ...               0.2   setosa
+2                4.7               3.2  ...               0.2   setosa
+3                4.6               3.1  ...               0.2   setosa
+4                5.0               3.6  ...               0.2   setosa
+
+[5 rows x 5 columns]
+
+Dataset shape (rows, columns):
+(150, 5)
+
+Dataset info: (see console for details)
+
+Summary statistics:
+       sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)
+count         150.000000        150.000000         150.000000        150.000000
+mean            5.843333          3.057333           3.758000          1.199333
+std             0.828066          0.435866           1.765298          0.762238
+min             4.300000          2.000000           1.000000          0.100000
+25%             5.100000          2.800000           1.600000          0.300000
+50%             5.800000          3.000000           4.350000          1.300000
+75%             6.400000          3.300000           5.100000          1.800000
+max             7.900000          4.400000           6.900000          2.500000
+
+Unique species and counts:
+species
+setosa        50
+versicolor    50
+virginica     50
+Name: count, dtype: int64
+
+
+================ TASK 2: Basic Analysis ================
+
+Average Petal Length per Species:
+species
+setosa        1.462
+versicolor    4.260
+virginica     5.552
+Name: petal length (cm), dtype: float64
+
+Species with highest avg sepal width: setosa
+
+
+================ TASK 3: Data Visualization ================
+
+
+================ TASK 4: Observations ================
+
+
+1. The line chart shows how petal length varies across samples. 
+   There are clear differences between species.
+
+2. The bar chart reveals that Iris-virginica has the largest 
+   average petal length, while Iris-setosa has the smallest.
+
+3. The histogram shows sepal width is most common between 
+   2.5 cm and 3.5 cm, with fewer very wide or very narrow sepals.
+
+4. The scatter plot indicates clear separation between species 
+   when comparing sepal length and petal length.
+
